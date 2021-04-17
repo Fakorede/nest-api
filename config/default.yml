@@ -1,0 +1,10 @@
+server:
+  port: 3000
+
+db:
+  type: 'postgres'
+  port: 5432
+  database: 'nest_task_api'
+
+jwt:
+  expiresIn: '3600' #1hr
